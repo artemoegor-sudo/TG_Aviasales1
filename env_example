@@ -1,0 +1,5 @@
+# Telegram Bot Token (получите от @BotFather)
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+
+# Aviasales API Token (получите на https://www.travelpayouts.com/developers/api)
+AVIASALES_API_TOKEN=your_aviasales_api_token_here 
