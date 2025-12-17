@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import os
 import telebot
 from telebot import types
@@ -23,13 +25,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Initialize bot and API
-TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-AVIASALES_API_TOKEN = os.getenv('AVIASALES_API_TOKEN')
-
-if not TELEGRAM_BOT_TOKEN:
-    raise ValueError("TELEGRAM_BOT_TOKEN not found in environment variables")
-if not AVIASALES_API_TOKEN:
-    raise ValueError("AVIASALES_API_TOKEN not found in environment variables")
+TELEGRAM_BOT_TOKEN='8272052743:AAEQ-cVRTzWv3Jz97hvZcfXCLl-Sd0x4ET8'
+AVIASALES_API_TOKEN='da6e66e3b2d3693471857ba592091cec'
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 aviasales = AviasalesAPI(AVIASALES_API_TOKEN)
