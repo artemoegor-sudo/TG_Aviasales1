@@ -25,8 +25,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Initialize bot and API
-TELEGRAM_BOT_TOKEN='8272052743:AAEQ-cVRTzWv3Jz97hvZcfXCLl-Sd0x4ET8'
-AVIASALES_API_TOKEN='da6e66e3b2d3693471857ba592091cec'
+TELEGRAM_BOT_TOKEN='YOUR_TOKEN_HERE'
+AVIASALES_API_TOKEN='YOUR_TOKEN_HERE'
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 aviasales = AviasalesAPI(AVIASALES_API_TOKEN)
